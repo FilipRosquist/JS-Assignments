@@ -1,0 +1,78 @@
+body {
+    font-family: "Hind", sans-serif;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-image 0.5s ease-in-out;
+    background-image: url('../IMG/defaultwallpaper.png');
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    text-align: center;
+}
+
+#content.male {
+    background-color: #add8e6e6; 
+}
+
+#content.female {
+    background-color: #cf8ba0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#user-data-container {
+    margin-top: 20px;
+}
+
+.user-data-item {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-data-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.user-data-item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-data-item p {
+    margin: 5px 0;
+    color: #333;
+    text-align: left;
+}
